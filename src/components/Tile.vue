@@ -40,24 +40,27 @@
   height: calc(var(--tile-size));
   font-size: 9px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid yellow;
+  border-top-color: lightgoldenrodyellow;
+  border-left-color: lightgoldenrodyellow;
   transition: transform 1s;
-  background-color: lightgray;
+  background-color: lightgoldenrodyellow;
   position: absolute;
   transition: top 0.3s, left 0.3s;
   box-sizing: border-box;
   background: brown;
+  border-radius: 5px;
 }
 .tile.floating {
   rotate: 7deg;
-  box-shadow: 2px 2px 4px grey;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.2);
   border: none;
 }
 
 .subTile {
   position: absolute;
-  width: calc(var(--tile-size)/3);
-  height: calc(var(--tile-size)/3);
+  width: 22px;
+  height: 22px;
   background-color: lightgray;
   top: calc(var(--tile-size)/3);
   left: calc(var(--tile-size)/3);

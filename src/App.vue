@@ -21,4 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
   --board-size: 7;
   --tile-size: 64px;
 }
+body {
+  background: lightpink;
+}
 </style>

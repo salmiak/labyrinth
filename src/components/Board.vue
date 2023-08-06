@@ -234,7 +234,9 @@ export default {
 .board {
   width: calc(var(--board-size) * var(--tile-size));
   height: calc(var(--board-size) * var(--tile-size));
-  border: 2px solid blue;
+  border: 10px solid lightgoldenrodyellow;
+  background: lightgoldenrodyellow;
+  border-radius: 14px;
   position: relative;
   box-sizing: content-box;
 }
